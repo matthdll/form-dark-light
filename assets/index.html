@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link cdn pra pegar icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css link -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <title>Dark/Light Form</title>
+</head>
+<body>
+    <main id="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>Login</h1>
+                <!-- Moon -->
+                <i id="mode_icon" class="fa-solid fa-moon" class="fa-solid fa-sun"></i>   
+
+            </div>
+
+                        <!-- LOGOSSS -->
+
+            <div id="social_media">
+
+                <a href="#">
+
+                    <img src="/assets/img/linkedin.png" alt="Linkedin Logo">
+
+                </a>
+
+                <a href="#">
+
+                    <img src="/assets/img/google.png" alt="Google Logo">
+
+                </a>
+
+                <a href="#">
+
+                    <img src="/assets/img/github.png" alt="GitHub Logo">
+
+                </a>
+
+            </div>
+
+            <!-- INPUTS LOGIN EMAIL PASSSWORD FORGOT PASSWORD -->
+
+            <div id="inputs">
+                        <!-- LOGIN -->
+                <div class="input-box">
+                    <label for="name">
+                        Name
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name" name="name">
+                        </div>
+                    </label>
+                </div>
+                        <!-- EMAIL -->
+                <div class="input-box">
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </label>
+                </div>
+                    <!-- PASSWORD -->
+                <div class="input-box">
+                    <label for="password">
+                        Password
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="passsword" id="password" name="password">
+                        </div>
+                    </label>
+                    <div id="forgot_password">
+                        <a href="#">
+                            Forgot your password?
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+                    <!-- LOGIN BUTTON -->
+            <button type="submit" id="login_button">
+                Login
+            </button>
+            
+        </form>
+    </main>
+
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+
+</body>
+</html>
